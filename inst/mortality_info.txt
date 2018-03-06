@@ -1,0 +1,20 @@
+Dataset:  bizmort.dat
+
+Source: R.G. Hutchinson, A.R. Hutchinson, and M. Newcomer (1938),
+"A Study in Business Mortality: Length of Life of Business Enterprises
+in Poughkeepsie, New York, 1843-1936", The American Economic Review,
+Vol. 28, pp497-514.
+
+Description: Survival times of Service Firms (Saloons, Restaurants,
+Express Services) in years. 11 means greater than 10. Does not count
+change in proprietorship as a new business.
+
+Variables/Columns:
+
+Service Type   1  /* 1=Salloon, 2=Restaurant, 3=Express
+Years  5-6
+Censor  10  /* 1=Yes, 0=No
+
+
+Procured from:
+http://www.stat.ufl.edu/~winner/datasets.html
