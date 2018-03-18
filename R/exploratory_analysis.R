@@ -4,7 +4,7 @@ head(data)
 library(ggplot2)
 
 ggplot(data, aes(years)) + geom_histogram(aes(fill = service)) + facet_grid(~service)
-
+ggplot(data, aes(years)) + geom_histogram(aes(fill = service))
 tab <- table(data[,1:2])
 totals <- apply(tab, 1, sum)
 survived <- tab[,11]
