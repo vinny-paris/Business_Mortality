@@ -1,4 +1,4 @@
-
+data <- read.csv('./data/mortality_data.csv')[,-1]
 
 
 
