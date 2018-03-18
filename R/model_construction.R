@@ -37,7 +37,7 @@ lnL <- sum(lnL1, lnL2, lnL3)
   
 }
 
-
+data <- read.csv('./data/mortality_data.csv')[,-1]
 result <- optim(par = c(.5, .5, .5), loglik, data = data, hessian = T, method = 'L-BFGS-B', lower = 0.001, upper = .999)
 
 result
